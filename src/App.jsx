@@ -1,10 +1,12 @@
-function App() {
+import { Center } from '@chakra-ui/react';
+import TodoInput from './components/TodoInput';
 
+function App() {
   return (
-    <>
-    <h1>Todo List App</h1>
-    </>
-  )
+    <Center w='100%' h='100vh'>
+      <TodoInput />
+    </Center>
+  );
 }
 
-export default App
+export default App;
